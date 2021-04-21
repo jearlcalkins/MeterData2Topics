@@ -30,6 +30,6 @@ The blue line is the B 120 volt leg current and it supports the refridgerator. T
 
 ## A python processed view of the A & B current
 
-The A leg current is ia, the B leg current is ib, the first derivative of A current dA/dt is iaDot, dB/dt is ibDot, the A & B powerfactors are apf and bpf. Measured powerfactor provides insight into the type of load is drawing current. A PC power supply has a power factor issue, whereas there is no power factor when you have a resistive load like an electric stove or a Mr Coffee.
+The A leg current is ia, the B leg current is ib, the first derivative of A current dA/dt is iaDot, dB/dt is ibDot, the A & B powerfactors are apf and bpf. Measured powerfactor provides insight into the type of load is drawing current. A PC's power supply and motors have a power factor, whereas there is no power factor when you have a resistive load like an electric stove or a Mr Coffee.
 
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/i_didt_pf.png)
