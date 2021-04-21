@@ -24,7 +24,7 @@ On the preprocessing pass, a signal processing application creates timestamped e
 
 ## An eyedro application view of their A & B current sensors:
 
-The blue line is the B 120 volt leg and it supports the refridgerator. The fridge turned-on and ran over 14 times in the day, creating periodic spikes in the current usage. 
+The blue line is the B 120 volt leg current and it supports the refridgerator. The fridge turned-on and ran over 14 times in the day, creating periodic spikes in the current usage. The orange line is the A leg current and it supports the furnace pump, 
 
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/Screenshot%202021-04-20%2009.48.25.png)
 
