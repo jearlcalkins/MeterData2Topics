@@ -5,9 +5,7 @@ Automation is gathering granular 2-second multiple time-series datasets from a r
 
 On the preprocessing pass, a signal processing application creates timestamped event "documents" for every transition in the time series. The sentence is made up of descriptive pseudo words summarizing what is taking place during changes in electrical power usage. Transforming the time series events to descriptive document sentences is effectively compression, it allows one to read a timeline of document sentence events, and map each document sentence to a vector space via  Latent Dirichlet Allocation (LDA).
 
-![eyedro application view]
-(https://github.com/jearlcalkins/MeterData2Topics/blob/main/i_didt_pf.png)
-![eyedro application view]
-(https://github.com/jearlcalkins/MeterData2Topics/blob/main/Screenshot%202021-04-20%2009.48.25.png)
+![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/i_didt_pf.png)
+![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/Screenshot%202021-04-20%2009.48.25.png)
 
 * washer, dryer, dishwasher, furnace, toaster oven, instant pot, etc
