@@ -10,13 +10,18 @@ On the preprocessing pass, a signal processing application creates timestamped e
 
 #### Three document sentences that note, the refridgerator ran, is running or turned-off ... the NLP topics would be "refridgerator"
 `2021-03-09 01:11:52-07:00 Tb0.4 Ib2 pfbDot6 OffHours`
+
 `2021-03-09 01:13:28-07:00 Tb-0.4 Ib1.6 OffHours`
+
 `2021-03-09 01:15:04-07:00 Tb-0.6 pfbDot-19 OffHours`
 
 #### words from a sentence and what the sentence means (the topic would be refridgerator, it just turned-on) 
 `Tb0.4` there was a first derivate transient in current, on the 120volt B leg of the power
+
 `Ib2` the current sensor on the B leg is using 2amps of current
+
 `pfbDot6` the current sensor on the B leg is measuring a first derivate transient in power factor
+
 `OffHours` the transient document sentence took place in the middle of the night
 
 #### An eyedro application view of their A & B current sensors:
@@ -24,4 +29,3 @@ On the preprocessing pass, a signal processing application creates timestamped e
 
 A python processed view of the A & B current, the first derivatives dA/dt, dB/dt and the A & B powerfactors pfA & pfB
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/i_didt_pf.png)
-
