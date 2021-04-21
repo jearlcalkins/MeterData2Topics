@@ -23,9 +23,13 @@ On the preprocessing pass, a signal processing application creates timestamped e
 `OffHours` the transient document sentence took place in the middle of the night
 
 ## An eyedro application view of their A & B current sensors:
+
+The blue line is the B 120 volt leg and it supports the refridgerator. The fridge turned-on and ran over 14 times in the day, creating periodic spikes in the current usage. 
+
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/Screenshot%202021-04-20%2009.48.25.png)
 
 ## A python processed view of the A & B current
 
-the first derivatives dA/dt, dB/dt and the A & B powerfactors pfA & pfB
+The A leg current is ia, the B leg current is ib, the first derivative of A current dA/dt is iaDot, dB/dt is ibDot, the A & B powerfactors are apf and bpf. Measured powerfactor provides insight into the type of load is drawing current. A PC power supply has a power factor issue, whereas there is no power factor when you have a resistive load like an electric stove or a Mr Coffee.
+
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/i_didt_pf.png)
