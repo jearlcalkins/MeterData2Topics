@@ -1,4 +1,4 @@
-# MeterData2Topics
+# MeterData2Topics (work in progress) NLP LDA results are not yet published
 Convert residential electrical power meter time series datasets, to NLP "document" sentences, to an LDA vector space, to a topic 
 
 Automation is gathering granular 2-second multiple time-series datasets from a residential electrical power meter, with the objective of identifying what appliances (*) are in use at any given time. An electrical power expert might be able to look at the time series metered usage data and infer what electrical devices are turned on. As more appliances are in use, it becomes difficult for a human to discern accurately, which appliances are consuming electrical power.
