@@ -22,8 +22,10 @@ On the preprocessing pass, a signal processing application creates timestamped e
 
 `OffHours` the transient document sentence took place in the middle of the night
 
-#### An eyedro application view of their A & B current sensors:
+## An eyedro application view of their A & B current sensors:
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/Screenshot%202021-04-20%2009.48.25.png)
 
-A python processed view of the A & B current, the first derivatives dA/dt, dB/dt and the A & B powerfactors pfA & pfB
+## A python processed view of the A & B current
+
+the first derivatives dA/dt, dB/dt and the A & B powerfactors pfA & pfB
 ![eyedro application view](https://github.com/jearlcalkins/MeterData2Topics/blob/main/i_didt_pf.png)
