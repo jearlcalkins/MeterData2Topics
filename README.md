@@ -9,13 +9,11 @@ On the preprocessing pass, a signal processing application creates timestamped e
 *`refridgerator, washer, dryer, dishwasher, furnace, toaster oven, instant pot, mrcoffee, breville expresso machine, etc`*
 
 #### Three document sentences that note, the refridgerator ran, is running or turned-off ... the NLP topics would be "refridgerator"
-`2021-03-09 01:11:52-07:00 Tb0.4 Ib2 pfbDot6 OffHours`
+1 `2021-03-09 01:11:52-07:00 Tb0.4 Ib2 pfbDot6 OffHours`
+2 `2021-03-09 01:13:28-07:00 Tb-0.4 Ib1.6 OffHours`
+3 `2021-03-09 01:15:04-07:00 Tb-0.6 pfbDot-19 OffHours`
 
-`2021-03-09 01:13:28-07:00 Tb-0.4 Ib1.6 OffHours`
-
-`2021-03-09 01:15:04-07:00 Tb-0.6 pfbDot-19 OffHours`
-
-#### words from a sentence and what the sentence means (the topic would be refridgerator, it just turned-on) 
+#### words from the first sentence and what that sentence means (the topic would be refridgerator, it just turned-on) 
 `Tb0.4` there was a first derivate transient in current, on the 120volt B leg of the power
 
 `Ib2` the current sensor on the B leg is using 2amps of current
